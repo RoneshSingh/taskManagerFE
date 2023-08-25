@@ -2,6 +2,7 @@ import React from "react";
 
 import Login from "@/components/Login";
 import Register from "@/components/Register";
+import AddTask from "@/components/AddTask";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
           <div>
             <Register />
+            <AddTask />
           </div>
         </div>
       </div>
